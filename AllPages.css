@@ -1,0 +1,290 @@
+
+#div-main{
+    background-color: whitesmoke; 
+    font-family: "Open Sans",sans-serif;; 
+    width: 1024px;
+    height:auto;
+    margin: auto;
+    overflow: visible;
+}
+
+    /*Menubar*/
+    #div-menubar{        
+        background-color: 1c331f;
+        width:1024;
+        height:60px;
+        display: flex;
+    }
+        /*List for Menubar*/
+        #div-list-menu{             
+            width: 700px;
+            margin-right:30px;
+        }
+        .ul-listmenu{
+            background-color:1c331f;
+            list-style-type: none;
+            margin:12px 20px 12px 20px;
+            overflow:hidden;
+        }
+        .li-listmenu{
+            float:left;
+            font-size: 18px;
+        }
+        .li-listmenu a{
+            display:inline-block;
+            color:white;
+            text-decoration: none;
+            padding:5px 20px 5px 5px;
+        }
+        .li-listmenu a:hover{
+            background: #567c18;
+        }
+        .li-listmenu a:active{
+            background: hsl(83, 56%, 57%)
+        }
+        .dropdown-gallry{
+            display: none;
+            position: absolute;
+            background-color: #1c331f;
+            font-size: 14px;
+            box-shadow: 25px;
+            width:160px}
+        .dropdown:hover .dropdown-gallry{
+            display: block;
+        }
+        /*Bottom in Menubar*/
+        #menu-bottom{
+            background-color:#567c18;
+            color: white;
+            text-align: center;
+            height: 32px;
+        }
+        /*Logo in Menu*/
+        #div-logo-menu{
+            background-color:#1c331f;
+            width: 320px;
+            padding: 10px;
+            margin:8px 10px 10px 50px;            
+        }
+
+    /*Text in Header*/
+    #div-text-header{        
+        color:#1c331f;
+        width: 1024px;
+        padding: 10px 10px 5px 10px;
+        display: flex;
+    }
+        #div-right-header{
+            font-size: 20px;
+            text-align: left;
+            width: 100%;
+            margin: 30px 50px 30px 20px;
+            padding-left:30px;
+        }
+        #div-left-header{
+            font-size: 25px;
+            text-align: left;
+            font-weight: bold;
+            width: 100%;
+            margin: 30px 20px 30px 50px;
+            padding-right:30px;
+            
+        }
+            span{
+                color:#567c18;
+            }            
+
+    /*Image in Header*/
+    #div-img-header{
+        width: 1024px;
+        height:400px;
+    }
+        #img-headr{
+            position: absolute;
+            z-index: 1;
+        }       
+        #p-img-headr{
+            font-size: 26px;
+            font-weight: bold;
+            text-align: left;
+            color:#1c331f;
+            margin-top: 265px;
+            margin-left:50px;
+            position: absolute;
+            z-index: 2;
+        }
+        #logo-headr{
+            margin-top: 300px;
+            margin-left: 50px;
+            position: absolute;
+            z-index: 3;
+        }
+        marquee{                
+            direction:"right";
+            color:white;
+            background-color:#1c331f;
+            width: 1024px;
+            height: 30px;
+            behavior:alternat;
+            font-size: 20px;
+        }
+    /*Body*/
+    #div-body-first{ 
+        color:#1c331f;
+        font-size:16px;   
+        width: 1024px;
+        margin-top: 20px;
+        padding: 10px; 
+        display: flex;
+            
+    }
+            #div-first-body{
+                width:100%;
+                margin-left:40px;
+            }
+            #div-second-body{
+                width:100%;
+                margin:0px 20px 0px 20px
+            }
+            #div-third-body{
+                width:100%;
+                margin-right:40px;
+            }
+    #div-body-second{         
+        color:#1c331f;
+        font-size:16px;
+        width: 1024px;
+        margin-bottom: 20px;
+        padding: 10px; 
+        display: flex;
+    }
+            #div-forth-body{
+                width:100%;
+                margin-left:40px;
+            }
+            #div-fifth-body{
+                width:100%;
+                margin:0px 20px 0px 20px
+            }
+            #div-sixth-body{
+                width:100%;
+                margin-right:40px;
+            } 
+
+    /*Footer*/
+    #div-footer{    
+        background-color: #1c331f;
+        color:white;    
+        width:1024px;
+        height:250px;
+        position:relative;
+        display: flex;    
+    }
+        #div-first-list{
+        width: 150px;
+        margin-left:15px;        
+        }
+        #div-second-list{
+        width: 150px;
+        margin-left:10px;        
+        }
+        #div-third-list{
+        width: 150px;
+        margin-left:10px;        
+        }
+        #div-forth-list{
+        width: 220px;
+        margin-left:10px;        
+        }
+        #div-fifth-list{
+            width: 290px;
+            margin-right:15px;        
+        }
+        .ul-footer{
+            list-style-type: none;
+            font-size:12px ;
+        }
+        .ul-footer li a{
+            display:inline-block;
+            color:white;
+            text-decoration: none;
+            padding:5px 20px 5px 5px;
+        }
+        .ul-footer li a:hover{
+            background: #567c18;
+        }
+        .ul-footer li a:active{
+            background: hsl(83, 56%, 57%)
+        }
+        .ul-footer li a:visited{
+            background: hsl(83, 90%, 52%)
+        }
+        h3{text-align: left;
+            margin: 40px;}
+        /*Bottom in Footer*/
+        #footer-bottom{
+            background-color:#567c18;
+            color: white;
+            text-align: center;
+            height: 40px;
+        }   
+        /*other pages*/
+        #div-aboutus{
+            background-image: url(https://raw.githubusercontent.com/shirin10454/shirin10454.github.io/main/BodyAboutus.jpg);
+            width: 1024px;
+            height: 900px;           
+        }
+        #div-order{
+            background-image: url(https://raw.githubusercontent.com/shirin10454/shirin10454.github.io/main/BodyContactus.jpg);
+            width: 1024px;
+            height: 900px;           
+        }
+        .div-other-pages{
+            color:#1c331f;
+            font-size:28px;  
+            text-align: left;  
+            width: 850px;        
+            padding: 50px 80px 80px 50px;            
+        }
+        .li-pages{background:url(https://raw.githubusercontent.com/shirin10454/shirin10454.github.io/main/List-icon.png)no-repeat left center;
+            font-size:26px;
+            list-style-type: none;
+            line-height: 30px;
+            padding: 0px 0px 0px 30px;
+        }          
+        #bottom-contact{
+            background-color:#567c18;
+            color: white;
+            text-align: center;
+            height: 40px;
+            margin: 10px 10px 10px 100px;
+        }
+        #li-instagram{font-size:18px;background:url(https://raw.githubusercontent.com/shirin10454/shirin10454.github.io/main/Instagram-icon.png)no-repeat left center;padding: 0px 0px 0px 40px;
+            font-size:28px;
+            list-style-type: none;
+            line-height: 30px;
+        } 
+        #li-facebook{font-size:18px;background:url(https://raw.githubusercontent.com/shirin10454/shirin10454.github.io/main/Facebook-icon.png)no-repeat left center ;padding: 0px 0px 0px 40px;
+            font-size:28px;
+            list-style-type: none;
+            line-height: 30px;
+        }
+        #li-whatsapp{font-size:18px;background:url(https://raw.githubusercontent.com/shirin10454/shirin10454.github.io/main/Whatsapp-icon.png)no-repeat left center;padding: 0px 0px 0px 40px;
+            font-size:28px;
+            list-style-type: none;
+            line-height: 30px;
+        }
+        #li-tel{font-size:18px;background:url(https://raw.githubusercontent.com/shirin10454/shirin10454.github.io/main/TelContactus-icon.png)no-repeat left center;padding: 0px 0px 0px 40px;
+            font-size:28px;
+            list-style-type: none;
+            line-height: 30px;} 
+        #li-email{font-size:18px;background:url(https://raw.githubusercontent.com/shirin10454/shirin10454.github.io/main/Email-icon.png)no-repeat left center ;padding: 0px 0px 0px 40px;
+            font-size:28px;        
+            list-style-type: none;
+            line-height: 32px;
+        }
+
+
+    
+
+
